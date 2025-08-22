@@ -1,0 +1,1041 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background-color: #000;
+    background-color: rgb(73, 70, 70);
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/heroBG.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .button .btn1 {
+    border: 0;
+    outline: 0;
+    background-color: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.nav .dropdown-toggle {
+    border: 0;
+    outline: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 7px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    align-items: center;
+    border: 1px solid#fff;
+    margin-right: 50%;
+    width: 100px;
+
+}
+
+.dropdown-menu {
+    margin: 0 auto;
+    background-color: white;
+    font-weight: 100;
+    color: black;
+    width: 100px;
+    padding: 0px 10px;
+    align-items: center;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #000;
+    margin-right: -10px;
+
+}
+
+.nav .button .btn2 i {
+    margin-left: 10px;
+    width: 10px;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.header-content h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.header-content h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.email-signup {
+    display: flex;
+    background: #fff;
+    border-radius: 4px;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 30px;
+
+}
+
+.email-signup input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+
+.email-signup button {
+    background-color: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px 30px;
+}
+
+
+body {
+    background-color: rgb(73, 70, 70);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: black;
+}
+
+.features .row .text-col {
+    width: 50%;
+    margin: 100px 100px;
+}
+
+.text-col h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-col p {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.video {
+    position: relative;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 20px 50px;
+
+}
+
+.features-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.features-video {
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 74%;
+    height: 61%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.image {
+    position: relative;
+    min-width: 400px;
+    max-width: 600px;
+    margin: 20px 50px;
+
+}
+
+.image img.phone {
+    width: 100%;
+    position: relative;
+}
+
+.download-box {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 60%;
+    z-index: 2;
+    box-shadow: 0 0 5px rgba(247, 242, 242, 0.4);
+}
+
+.download-box img.poster {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.download-box .info {
+    flex-grow: 1;
+}
+
+.download-box .info h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.download-box .info p {
+    margin: 2px 0 0;
+    font-size: 14px;
+    color: #4da6ff;
+}
+
+.icon-img {
+    width: 50px;
+
+}
+
+.features-wrapper {
+    position: relative;
+    min-width: 300px;
+    max-width: 500px;
+    margin-top: 20px;
+
+}
+.features-wrapper1 {
+    position: relative;
+    min-width: 300px;
+    max-width: 500px;
+    margin-top: 20px;
+
+}
+.features-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.features-img1 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.hi {
+    height: 70px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #000;
+    align-items: center;
+}
+
+.hi h1 {
+    margin-right: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+
+
+.accordion {
+
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.accordion .accordionbtn {
+    margin: 0 auto;
+    width: 80%;
+    height: 60px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    align-items: center;
+
+
+
+}
+
+.accordion .accordionbtn h3 {
+    padding: 10px;
+    margin-right: -10px;
+}
+
+
+.accordion .accordionbtn i {
+    transition: all 0.1s;
+    margin: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.container {
+    background-color: black;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+
+.accordion .accordion_item {
+    margin: 0 auto;
+    width: 80%;
+    background-color: transparent;
+    height: 0;
+    color: white;
+    transition: all 0.5s;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+
+footer {
+    background-color: black;
+    color: #918a8a;
+    padding: 3rem 0;
+    padding-top: 10px;
+}
+
+
+
+.footer:hover {
+    color: red !important;
+}
+
+@media (max-width: 992px) {
+
+    .header {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/heroBG.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 10px 8%;
+        position: relative;
+    }
+
+    .logo {
+        width: 100px;
+        cursor: pointer;
+    }
+
+    .button {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav .button .btn1 {
+        border: 0;
+        outline: 0;
+        background-color: #db0001;
+        color: #fff;
+        padding: 7px 20px;
+        font-size: 12px;
+        border-radius: 4px;
+        margin-left: 10px;
+        cursor: pointer;
+        width: 100px;
+    }
+
+    .header-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        margin-top: 100px;
+
+    }
+
+    .header-content h1 {
+        font-size: 50px;
+        line-height: 70px;
+        font-weight: 600;
+        max-width: 650px;
+    }
+
+    .header-content h3 {
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .email-signup {
+        display: flex;
+        background: #fff;
+        border-radius: 4px;
+        align-items: center;
+        overflow: hidden;
+        margin-top: 30px;
+
+    }
+
+    .email-signup input {
+        flex: 1;
+        border: 0;
+        outline: 0;
+        margin-left: 20px;
+    }
+
+    .email-signup button {
+        background-color: #db0001;
+        border: 0;
+        outline: 0;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        background-color: black;
+    }
+
+    .features .row .text-col {
+        width: 50%;
+        margin: 100px 100px;
+    }
+
+    .text-col h2 {
+        font-size: 30px;
+        font-weight: bold;
+        padding: 6px 5px;
+    }
+
+    .text-col p {
+        font-size: 15px;
+        margin-top: 10px;
+        padding: 4px 5px;
+    }
+
+    .video {
+        position: relative;
+        min-width: 300px;
+        max-width: 500px;
+        margin: 20px 10px;
+        left: -100px;
+    }
+
+    .features-img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .features-video {
+        position: absolute;
+        top: 20%;
+        left: 13%;
+        width: 74%;
+        height: 61%;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    .image {
+        position: relative;
+        min-width: 300px;
+        max-width: 500px;
+        margin: 20px 50px;
+        right: -50px;
+    }
+
+    .image img.phone {
+        width: 400px;
+        position: relative;
+        left: -20px;
+        height: 300px;
+    }
+
+    .download-box {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: black;
+        border-radius: 12px;
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        width: 300px;
+        left: 160px;
+        z-index: 2;
+        box-shadow: 0 0 5px rgba(247, 242, 242, 0.4);
+    }
+
+    .download-box img.poster {
+        width: 30px;
+        border-radius: 5px;
+    }
+
+    .download-box .info {
+        flex-grow: 1;
+    }
+
+    .download-box .info h4 {
+        margin: 0;
+        font-size: 16px;
+        padding: 4px 6px;
+
+    }
+
+    .download-box .info p {
+        margin: 2px 0 0;
+        font-size: 14px;
+        color: #4da6ff;
+        padding: 4px 6px;
+    }
+
+    .icon-img {
+        width: 50px;
+
+    }
+
+    .features-wrapper {
+        position: relative;
+        min-width: 300px;
+        max-width: 500px;
+        margin-top: 20px;
+        left: -30px;
+    }
+
+    .features-img {
+        width: 300px;
+        height: 250px;
+        display: block;
+    }
+
+    .features-wrapper1 {
+        position: relative;
+        min-width: 300px;
+        max-width: 500px;
+        margin-top: 20px;
+        left: 50px;
+    }
+
+    .features-img1 {
+        width: 250px;
+        height: 250px;
+        display: block;
+
+    }
+
+
+    .hi {
+        height: 70px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        background-color: #000;
+        align-items: center;
+    }
+
+    .hi h1 {
+        margin-right: 10px;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 25px;
+        font-size: 35px;
+
+    }
+
+
+
+    .accordion {
+
+        width: 80%;
+        margin: 0 auto;
+        color: black;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .accordion .accordionbtn {
+        margin: 0 auto;
+        width: 80%;
+        height: 60px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #333;
+        color: white;
+        align-items: center;
+
+
+
+    }
+
+    .accordion .accordionbtn h3 {
+        padding: 5px;
+        margin-right: -10px;
+        font-size: 23px;
+    }
+
+
+    .accordion .accordionbtn i {
+        transition: all 0.1s;
+        margin: 10px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .container {
+        background-color: black;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+
+
+    .accordion .accordion_item {
+        margin: 0 auto;
+        width: 80%;
+        background-color: transparent;
+        height: 0;
+        color: white;
+        transition: all 0.5s;
+        overflow: hidden;
+        margin-bottom: 4px;
+    }
+
+    footer {
+        background-color: black;
+        color: #918a8a;
+        padding: 3rem 0;
+        padding-top: 10px;
+    }
+
+
+
+    .footer:hover {
+        color: red !important;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+
+    .header {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/heroBG.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 10px 8%;
+        position: relative;
+    }
+
+    .logo {
+        width: 90px;
+        cursor: pointer;
+    }
+
+    .button {
+        display: flex;
+        justify-content: space-between;
+        margin-right: -10px;
+        margin-top: 10px;
+    }
+
+    .button .dropdown-toggle {
+        width: 100%;
+        height: 80%;
+        font-size: 12px;
+        padding: 7px 15px;
+        margin-left: -10px;
+        margin-top: 1px;
+
+    }
+
+    .nav .button .btn1 {
+        border: 0;
+        outline: 0;
+        background-color: #db0001;
+        color: #fff;
+        padding: 7px 15px;
+        font-size: 10px;
+        border-radius: 4px;
+        margin-left: 10px;
+        cursor: pointer;
+        width: 100px;
+        width: 100%;
+        height: 80%;
+    }
+
+    .header-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        margin-top: 30px;
+
+    }
+
+    .header-content h1 {
+        font-size: 30px;
+        line-height: 70px;
+        font-weight: 600;
+        max-width: 650px;
+    }
+
+    .header-content h3 {
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .email-signup {
+        display: flex;
+        background: #fff;
+        border-radius: 4px;
+        align-items: center;
+        overflow: hidden;
+        margin-top: 30px;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .email-signup input {
+        flex: 1;
+        border: 0;
+        outline: 0;
+        margin-left: 20px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .email-signup button {
+        background-color: #db0001;
+        border: 0;
+        outline: 0;
+        color: #fff;
+        cursor: pointer;
+        font-size: 12px;
+        padding: 5px 20px;
+        width: 90px;
+        height: 50px;
+        font-weight: 200;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        background-color: black;
+    }
+
+    .features .row .text-col {
+        width: 50%;
+        margin: 100px 100px;
+
+    }
+
+    .text-col h2 {
+        font-size: 28px;
+        font-weight: bold;
+        padding: 20px 5px 0px 5px;
+    }
+
+
+
+    .text-col p {
+        font-size: 12px;
+        margin-top: 10px;
+        padding: 4px 5px;
+    }
+
+    .video {
+        position: relative;
+        min-width: 200px;
+        max-width: 360px;
+        margin: 20px 10px;
+
+        left: 11%;
+    }
+
+    .features-img {
+        width: 100%;
+        height: auto;
+        display: block;
+
+
+    }
+
+    .features-video {
+        position: absolute;
+        top: 20%;
+        left: 19px;
+        width: 74%;
+        height: 61%;
+        object-fit: cover;
+
+    }
+
+    .image {
+        position: relative;
+        min-width: 300px;
+        max-width: 500px;
+        margin: 5px 20px;
+        left: 9%;
+
+    }
+
+    .image img.phone {
+        width: 360px;
+        position: relative;
+        margin-right: 25px;
+        height: 250px;
+
+    }
+
+    .download-box {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: black;
+        border-radius: 12px;
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        width: 350px;
+        left: 150px;
+        z-index: 2;
+        box-shadow: 0 0 5px rgba(247, 242, 242, 0.4);
+
+    }
+
+    .download-box img.poster {
+        width: 28px;
+        border-radius: 5px;
+
+    }
+
+    .download-box .info {
+        flex-grow: 1;
+    }
+
+    .download-box .info h4 {
+        margin: 0;
+        font-size: 12px;
+        padding: 4px 6px;
+
+    }
+
+    .download-box .info p {
+        margin: 2px 0 0;
+        font-size: 10px;
+        color: #4da6ff;
+        padding: 4px 6px;
+    }
+
+    .icon-img {
+        width: 50px;
+
+    }
+
+    .features-wrapper {
+        position: relative;
+        min-width: 300px;
+        max-width: 500px;
+        margin-top: 20px;
+        left: 10px;
+    }
+
+    .features-img {
+        width: 300px;
+        height: 250px;
+        display: block;
+    }
+
+    .features-wrapper1 {
+        position: relative;
+        min-width: 300px;
+        max-width: 500px;
+        margin-top: 20px;
+        left: 10px;
+    }
+
+    .features-img1 {
+        width: 350px;
+        height: 250px;
+        display: block;
+
+    }
+
+
+    .hi {
+        height: 70px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        background-color: #000;
+        align-items: center;
+    }
+
+    .hi h1 {
+        margin-right: 10px;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 25px;
+        font-size: 30px;
+
+    }
+
+
+
+    .accordion {
+
+        width: 100%;
+        margin: 0 auto;
+        color: black;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .accordion .accordionbtn {
+        margin: 0 auto;
+        width: 350px;
+        height: 60px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #333;
+        color: white;
+        align-items: center;
+        padding: 10px;
+
+
+    }
+
+    .accordion .accordionbtn h3 {
+        padding: 5px;
+        margin-right: -10px;
+        font-size: 20px;
+    }
+
+
+    .accordion .accordionbtn i {
+        transition: all 0.1s;
+        margin: 10px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .container {
+        background-color: black;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+
+
+    .accordion .accordion_item {
+        margin: 0 auto;
+        width: 80%;
+        background-color: transparent;
+        height: 0;
+        color: white;
+        transition: all 0.5s;
+        overflow: hidden;
+        margin-bottom: 4px;
+    }
+
+    footer {
+        background-color: black;
+        color: #918a8a;
+        padding: 3rem 0;
+        padding-top: 10px;
+    }
+
+
+
+    .footer:hover {
+        color: red !important;
+    }
+}
